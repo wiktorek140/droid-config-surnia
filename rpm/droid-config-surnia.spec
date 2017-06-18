@@ -14,7 +14,8 @@
 #We assume most devices will
 %define have_modem 1
 
-%define community_adaptation 1
+#%define community_adaptation 1
+
 Provides: ofono-configs
 
 Provides: bluez-configs
