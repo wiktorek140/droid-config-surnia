@@ -1,11 +1,12 @@
 [Unit]
 Description=Enable Bluetooth HCI over SMD
-DefaultDependencies=false
-After=local-fs.target droid-late-start.service
+After=droid-late-start.target wlan-module-load.service
+Before=bluetooth.service
+Conflicts=shutdown.target actdead.target
 
 [Service]
 Type=oneshot
-ExecStart=/usr/bin/droid/droid-hcismd-up.sh
+ExecStart=/bin/sh /usr/bin/droid/droid-hcismd-up.sh
 RemainAfterExit=yes
 
 [Install]
