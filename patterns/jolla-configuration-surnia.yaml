@@ -30,7 +30,7 @@ Requires:
 
 - sailfish-office
 - jolla-calculator
-#- jolla-email
+- jolla-email
 #- jolla-mediaplayer
 #- sailfish-weather
 

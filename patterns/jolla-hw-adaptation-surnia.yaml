@@ -32,6 +32,9 @@ Requires:
 - qt5-plugin-generic-evdev
 
 - pulseaudio-modules-droid
+#Some glue for audio in calls
+- pulseaudio-modules-droid-glue
+
 # for audio recording to work:
 - qt5-qtmultimedia-plugin-mediaservice-gstmediacapture
 
@@ -76,9 +79,6 @@ Requires:
 # For GPS
 - geoclue-provider-hybris
 
-#Some glue for audio in calls
-- pulseaudio-modules-droid-glue
-
 # Mount SD-Card
 - sd-utils
 
@@ -87,7 +87,7 @@ Requires:
 - mce-tools
 - strace
 - gdb
-- perl
+#- perl
 
 Summary: Jolla HW Adaptation surnia
 
