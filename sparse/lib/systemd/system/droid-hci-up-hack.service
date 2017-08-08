@@ -1,0 +1,11 @@
+[Unit]
+Description=Enable Bluetooth HCI over SMD
+After=bluetooth.service
+Conflicts=shutdown.target actdead.target
+
+[Service]
+ExecStart=/bin/sh /usr/bin/droid/hci-hack.sh
+RemainAfterExit=no
+
+[Install]
+WantedBy=graphical.target
