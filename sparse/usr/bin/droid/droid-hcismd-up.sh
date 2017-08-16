@@ -9,6 +9,7 @@ setprop ro.qualcomm.bt.hci_transport smd
 
 i=1
 while [ ! $i -gt $MAXTRIES ]  ; do
+    let i=i+1
     echo 1 > /sys/module/hci_smd/parameters/hcismd_set
     if [ -e /sys/class/bluetooth/hci0 ] ; then
         # found hci0, get/set BT MAC address
