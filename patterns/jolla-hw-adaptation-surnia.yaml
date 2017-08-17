@@ -13,8 +13,8 @@ Requires:
 - droid-config-surnia-preinit-plugin
 - droid-config-surnia-flashing
 - droid-config-surnia-bluez4
-- droid-hal-surnia-detritus
 - droid-hal-version-surnia
+- droid-hal-surnia-detritus
 
 # Hybris packages
 - libhybris-libEGL
@@ -51,7 +51,7 @@ Requires:
 - nemo-gstreamer1.0-interfaces
 
 # For devices with droidmedia and gst-droid built, see HADK pdf for more information
-- gstreamer1.0-droid
+#- gstreamer1.0-droid
 
 # This is needed for notification LEDs
 - mce-plugin-libhybris
@@ -64,7 +64,7 @@ Requires:
 
 # Extra useful modes not officially supported:
 # might need some configuration to get working
-- usb-moded-mass-storage-android-config
+#- usb-moded-mass-storage-android-config
 # working but careful with roaming!
 - usb-moded-connection-sharing-android-config
 # android diag mode only usable for certain android tools
@@ -87,7 +87,7 @@ Requires:
 - mce-tools
 - strace
 - gdb
-#- perl
+- booster
 
 Summary: Jolla HW Adaptation surnia
 
