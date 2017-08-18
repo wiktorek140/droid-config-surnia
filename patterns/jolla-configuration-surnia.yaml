@@ -15,7 +15,7 @@ Requires:
 - sailfish-content-graphics-z1.0
 
 # For multi-SIM devices
-#- jolla-settings-networking-multisim
+- jolla-settings-networking-multisim
 
 # Introduced starting Sailfish OS 2.0.4.x:
 # 3rd party accounts like Twitter, VK, cloud services, etc
@@ -28,9 +28,15 @@ Requires:
 # needs some configuration to get all features working
 - csd
 
-#- sailfish-office
-#- jolla-calculator
-#- jolla-email
+- sailfish-office
+- jolla-calculator
+- jolla-email
+#- jolla-store-applications
+#- jolla-settings-accounts-extension-jolla
+
+# Radio
+- jolla-mediaplayer-radio
+
 
 Summary: Jolla Configuration surnia
 
