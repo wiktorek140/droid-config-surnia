@@ -28,11 +28,14 @@ Requires:
 # needs some configuration to get all features working
 - csd
 
+# Jolla Store Items
+- store-client
+- jolla-settings-accounts-extensions-jolla
+- jolla-settings-system-sideloading
+
 - sailfish-office
 - jolla-calculator
 - jolla-email
-#- jolla-store-applications
-#- jolla-settings-accounts-extension-jolla
 
 # Radio
 - jolla-mediaplayer-radio

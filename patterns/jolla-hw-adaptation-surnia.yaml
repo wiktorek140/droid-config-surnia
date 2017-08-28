@@ -75,6 +75,7 @@ Requires:
 
 # enable device lock and allow to select untrusted software
 - jolla-devicelock-plugin-encsfa
+- jolla-settings-layout
 
 # For GPS
 - geoclue-provider-hybris
