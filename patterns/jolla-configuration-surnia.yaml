@@ -31,7 +31,7 @@ Requires:
 - sailfish-office
 - jolla-calculator
 - jolla-email
-#- jolla-mediaplayer
+- jolla-mediaplayer
 #- sailfish-weather
 
 Summary: Jolla Configuration surnia
