@@ -25,8 +25,8 @@ Requires:
 - hybris-libsensorfw-qt5
 
 # Vibra
-- ngfd-plugin-droid-vibrator
-- qt5-feedback-haptics-droid-vibrator
+- ngfd-plugin-native-vibrator
+- qt5-feedback-haptics-native-vibrator
 
 # Needed for /dev/touchscreen symlink
 - qt5-plugin-generic-evdev
@@ -74,7 +74,8 @@ Requires:
 - rfkill
 
 # enable device lock and allow to select untrusted software
-- jolla-devicelock-plugin-encsfa
+- jolla-devicelock-daemon-encsfa
+- jolla-settings-layout
 
 # For GPS
 - geoclue-provider-hybris
@@ -85,6 +86,9 @@ Requires:
 
 # Mount SD-Card
 - sd-utils
+
+# For camera module detection
+- droid-camres
 
 # Other usefull stuff that i install anyways
 - nano

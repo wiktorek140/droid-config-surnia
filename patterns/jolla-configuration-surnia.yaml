@@ -5,10 +5,11 @@ Description: Pattern with packages for surnia configurations
 Name: jolla-configuration-surnia
 Requires:
 - pattern:jolla-hw-adaptation-surnia
-- pattern:jolla-sailfish-applications
-- pattern:jolla-ui-wayland
+- patterns-sailfish-applications
+#- pattern:jolla-ui-wayland
+- patterns-sailfish-ui
 # For devices with cellular modem. Those without one, please comment out:
-- pattern:jolla-sailfish-cellular-apps
+- patterns-sailfish-cellular-apps
 # Early stages of porting benefit from these:
 - pattern:sailfish-porter-tools
 
@@ -28,11 +29,15 @@ Requires:
 # needs some configuration to get all features working
 - csd
 
-- sailfish-office
+# Jolla Store Items
+- store-client
+- jolla-settings-accounts-extensions-jolla
+- jolla-settings-system-sideloading
 - jolla-calculator
 - jolla-email
 - jolla-mediaplayer
-#- sailfish-weather
+- sailfish-office
+- sailfish-weather
 
 Summary: Jolla Configuration surnia
 
