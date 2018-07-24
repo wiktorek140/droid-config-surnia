@@ -1,11 +1,11 @@
 [Unit]
-Description=Load radio-iris-transport module
+Description=Load Module radio-iris
 DefaultDependencies=false
 After=droid-hcismd-up.service
 
 [Service]
 Type=oneshot
-ExecStart=/sbin/modprobe radio-iris-transport
+ExecStart=/usr/bin/droid/droid-bt-up.sh
 RemainAfterExit=yes
 
 [Install]
