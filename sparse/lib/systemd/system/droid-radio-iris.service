@@ -1,11 +1,11 @@
 [Unit]
-Description=Enable FM Radio
+Description=Load Module radio-iris
 DefaultDependencies=false
 After=droid-hcismd-up.service
 
 [Service]
 Type=oneshot
-ExecStart=/usr/bin/droid/droid-fm-up.sh
+ExecStart=sbin/modprobe radio-iris
 RemainAfterExit=yes
 
 [Install]

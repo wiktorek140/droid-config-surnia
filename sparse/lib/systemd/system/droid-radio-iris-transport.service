@@ -1,0 +1,12 @@
+[Unit]
+Description=Load radio-iris-transport module
+DefaultDependencies=false
+After=droid-hcismd-up.service
+
+[Service]
+Type=oneshot
+ExecStart=sbin/modprobe radio-iris-transport
+RemainAfterExit=yes
+
+[Install]
+WantedBy=bluetooth.service
