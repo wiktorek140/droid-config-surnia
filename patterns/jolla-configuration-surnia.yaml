@@ -33,11 +33,10 @@ Requires:
 - jolla-settings-accounts-extensions-jolla
 - jolla-settings-system-sideloading
 
-- sailfish-office
 - jolla-calculator
 - jolla-email
-
-
+- jolla-mediaplayer
+- sailfish-office
+- sailfish-weather
 
 Summary: Jolla Configuration surnia
-
