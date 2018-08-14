@@ -16,9 +16,6 @@ Requires:
 - droid-hal-version-surnia
 - droid-hal-surnia-detritus
 
-# Flashing?
-
-
 # Hybris packages
 - libhybris-libEGL
 - libhybris-libGLESv2
@@ -36,7 +33,7 @@ Requires:
 
 - pulseaudio-modules-droid
 #Some glue for audio in calls
-#- pulseaudio-modules-droid-glue
+- pulseaudio-modules-droid-glue
 
 # for audio recording to work:
 - qt5-qtmultimedia-plugin-mediaservice-gstmediacapture
@@ -54,7 +51,7 @@ Requires:
 - nemo-gstreamer1.0-interfaces
 
 # For devices with droidmedia and gst-droid built, see HADK pdf for more information
-#- gstreamer1.0-droid
+- gstreamer1.0-droid
 
 # This is needed for notification LEDs
 - mce-plugin-libhybris
@@ -90,7 +87,7 @@ Requires:
 - nano
 - mce-tools
 - strace
-- gdb
+#- gdb
 
 # Radio
 - qt5-qtmultimedia-plugin-mediaservice-irisradio

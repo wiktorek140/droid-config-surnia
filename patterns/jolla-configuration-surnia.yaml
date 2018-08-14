@@ -29,7 +29,8 @@ Requires:
 - csd
 
 # Jolla Store Items
-- store-client
+#- store-client
+- patterns-sailfish-consumer-generic
 - jolla-settings-accounts-extensions-jolla
 - jolla-settings-system-sideloading
 
