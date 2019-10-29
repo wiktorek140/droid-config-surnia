@@ -12,7 +12,7 @@ Requires:
 - droid-config-surnia-policy-settings
 - droid-config-surnia-preinit-plugin
 - droid-config-surnia-flashing
-- droid-config-surnia-bluez4
+- droid-config-surnia-bluez5
 - droid-hal-surnia-detritus
 - droid-hal-version-surnia
 
@@ -32,9 +32,6 @@ Requires:
 - qt5-plugin-generic-evdev
 
 - pulseaudio-modules-droid
-#Some glue for audio in calls
-- pulseaudio-modules-droid-glue
-
 # for audio recording to work:
 - qt5-qtmultimedia-plugin-mediaservice-gstmediacapture
 
@@ -49,9 +46,8 @@ Requires:
 - gstreamer1.0-plugins-base
 - gstreamer1.0-plugins-bad
 - nemo-gstreamer1.0-interfaces
-
 # For devices with droidmedia and gst-droid built, see HADK pdf for more information
-- gstreamer1.0-droid
+#- gstreamer1.0-droid
 
 # This is needed for notification LEDs
 - mce-plugin-libhybris
@@ -75,7 +71,6 @@ Requires:
 
 # enable device lock and allow to select untrusted software
 - jolla-devicelock-daemon-encsfa
-- jolla-settings-layout
 
 # For GPS
 - geoclue-provider-hybris
@@ -83,6 +78,10 @@ Requires:
 # For FM radio on some QCOM devices
 - qt5-qtmultimedia-plugin-mediaservice-irisradio
 - jolla-mediaplayer-radio
+
+# NFC for devices using Android 8 or newer as base
+#- nfcd-binder-plugin
+#- jolla-settings-system-nfc
 
 # Mount SD-Card
 - sd-utils
@@ -95,7 +94,6 @@ Requires:
 - mce-tools
 - strace
 - gdb
-#- perl
 
 Summary: Jolla HW Adaptation surnia
 
