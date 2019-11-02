@@ -12,7 +12,7 @@ Requires:
 - droid-config-surnia-policy-settings
 - droid-config-surnia-preinit-plugin
 - droid-config-surnia-flashing
-- droid-config-surnia-bluez4
+- droid-config-surnia-bluez5
 - droid-hal-version-surnia
 - droid-hal-surnia-detritus
 
@@ -33,7 +33,7 @@ Requires:
 
 - pulseaudio-modules-droid
 #Some glue for audio in calls
-- pulseaudio-modules-droid-glue
+#- pulseaudio-modules-droid-glue
 
 # for audio recording to work:
 - qt5-qtmultimedia-plugin-mediaservice-gstmediacapture
@@ -51,10 +51,14 @@ Requires:
 - nemo-gstreamer1.0-interfaces
 
 # For devices with droidmedia and gst-droid built, see HADK pdf for more information
-- gstreamer1.0-droid
+# - gstreamer1.0-droid
 
 # This is needed for notification LEDs
 - mce-plugin-libhybris
+
+# Radio
+- qt5-qtmultimedia-plugin-mediaservice-irisradio
+- jolla-mediaplayer-radio
 
 ## USB mode controller
 # Enables mode selector upon plugging USB cable:
@@ -88,10 +92,6 @@ Requires:
 - mce-tools
 - strace
 #- gdb
-
-# Radio
-- qt5-qtmultimedia-plugin-mediaservice-irisradio
-- jolla-mediaplayer-radio
 
 Summary: Jolla HW Adaptation surnia
 
